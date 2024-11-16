@@ -1,0 +1,57 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+  }
+  
+  /* Container styles */
+  .container {
+    text-align: center;
+    background: #fff;
+    padding: 2rem 3rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styles */
+  .container h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  /* Button styles */
+  .container button {
+    font-size: 1.5rem;
+    margin: 15px 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background: #4facfe;
+    color: #fff;
+    transition: transform 0.2s, background-color 0.2s;
+  }
+  
+  .container button:hover {
+    transform: scale(1.1);
+    background-color: #0077ff;
+  }
+  
+  .container button:active {
+    transform: scale(1);
+    background-color: #005bb5;
+  }
+  
+  /* Reset button specific style */
+  .container button:nth-child(2) {
+    border-radius: 8px;
+    padding: 0.8rem 2rem;
+  }
+  
